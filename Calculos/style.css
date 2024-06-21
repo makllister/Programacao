@@ -5,3 +5,42 @@ body{
 h1{
     font-family: "Playwrite US Trad", cursive;
 }
+
+h2{
+    font-family: "Titillium Web", sans-serif;
+}
+
+.adicao{
+    color:lightslategray
+}
+
+.diminuir{
+    color:orangered
+}
+
+.multiplicar{
+    color:teal
+}
+
+.dividir{
+    color:maroon
+}
+
+.mediar{
+    color:darkgreen
+}
+
+.iterar{
+    color:darkblue
+}
+
+.main-estilo{
+    width: 40%;
+    display:block
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color:khaki
+}

@@ -20,6 +20,8 @@ site do repositorio que consta nossos codigos de aula
 
 5 - git push
 
+6- ctrl + j- abre terminal
+
 https://fonts.google.com/
 
 site para pegar fontes 

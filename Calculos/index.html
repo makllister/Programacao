@@ -14,55 +14,63 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1>Revisão</h1>
-    <main>
+    <main class="main-estilo">
         <section>
-            <h2>Somar</h2>
+            <h2 class="adicao">Somar</h2>
             <input id="so1" type="number" placeholder="Digite um número">
             <input id="so2" type="number" placeholder="Digite um número">
             <button onclick="somar()">CALCULAR</button>
             <p id="respSoma"></p>
         </section>
+        <br>
 
         <section>
-            <h2>Substração</h2>
+            <h2 class="diminuir">Substração</h2>
             <input id="sub1" type="number" placeholder="Digite um número">
             <input id="sub2" type="number" placeholder="Digite um número">
             <button onclick="sub()">CALCULAR</button>
             <p id="respSub"></p>
         </section>
+        <br>
 
-        <section>
-            <h2>Multiplicação</h2>
+        <section class="main">
+            <h2 class="multiplicar">Multiplicação</h2>
             <input id="multi1" type="number" placeholder="Digite um número">
             <input id="multi2" type="number" placeholder="Digite um número">
             <button onclick="multi()">CALCULAR</button>
             <p id="respMulti"></p>
         </section>
+        <br>
 
         <section>
-            <h2>Divisão</h2>
+            <main class="main-estilo">
+            <h2 class="dividir">Divisão</h2>
             <input id="div1" type="number" placeholder="Digite um número">
             <input id="div2" type="number" placeholder="Digite um número">
             <button onclick="div()">CALCULAR</button>
             <p id="respDiv"></p>
         </section>
+        <br>
 
-        <section>
-            <h2>Média</h2>
+        <section class="main-estilo">
+            <h2 class="mediar">Média</h2>
             <input id="m1" type="number" placeholder="Digite um número">
             <input id="m2" type="number" placeholder="Digite um número">
             <input id="m3" type="number" placeholder="Digite um número">
             <button onclick="media()">CALCULAR</button>
             <p id="respMedia"></p>
         </section>
-
-        <section>
-            <h2>Iteração (for)</h2>
+        <br>
+        <section class="main-estilo">
+            <h2 class="iterar">Iteração (for)</h2>
             <input id="numeroInput" placeholder="Digite um número">
             <button onclick="contar()">contar</button>
             <p id="result"></p>
