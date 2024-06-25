@@ -1,0 +1,53 @@
+h1 {
+    font-family: "Playwrite MX", cursive;
+    font-size: 23px;
+    color: black;
+    width: 425px;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: red;
+}
+
+body {
+    font-family: "Pacifico", cursive;
+    font-size: 18px;
+    background-color: rgba(233, 122, 81, 0.685)
+}
+
+.label {
+    background-color: aquamarine;
+}
+
+.label2 {
+    font-family: "Anton", sans-serif;
+    font-size: medium;
+    background-color: burlywood;
+    color: darkgreen
+}
+
+.label3 {
+    background-color: darkseagreen;
+    font-family: "Montserrat", sans-serif;
+    color: midnightblue
+}
+
+.n {
+    background-color: darkkhaki;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.m {
+    background-color: lightskyblue;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.d {
+    background-color: palegreen;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
