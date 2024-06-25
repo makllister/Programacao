@@ -1,46 +1,105 @@
-body{
+body {
     font-family: "Roboto", sans-serif;
 }
 
-h1{
+h1 {
     font-family: "Playwrite US Trad", cursive;
 }
 
-h2{
+h2 {
     font-family: "Titillium Web", sans-serif;
 }
 
-.adicao{
-    color:lightslategray
+.adicao {
+    color: lightslategray
 }
 
-.diminuir{
-    color:orangered
+.diminuir {
+    color: orangered
 }
 
-.multiplicar{
-    color:teal
+.multiplicar {
+    color: teal
 }
 
-.dividir{
-    color:maroon
+.dividir {
+    color: maroon
 }
 
-.mediar{
-    color:darkgreen
+.mediar {
+    color: darkgreen
 }
 
-.iterar{
-    color:darkblue
+.iterar {
+    color: darkblue
 }
 
-.main-estilo{
+.main-estilo {
     width: 40%;
-    display:block
-    align-items: center;
+    display: block align-items: center;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 10px;
-    background-color:khaki
+    background-color: khaki
+}
+
+.n1 {
+    background-color: black;
+    color: white
+}
+
+.n2 {
+    background-color: black;
+    color: white
+}
+
+.n3 {
+    background-color: black;
+    color: white
+}
+
+.n4 {
+    background-color: black;
+    color: white
+}
+
+.n5 {
+    background-color: black;
+    color: white
+}
+
+.n6 {
+    background-color: black;
+    color: white
+}
+
+.n7 {
+    background-color: black;
+    color: white
+}
+
+.n8 {
+    background-color: black;
+    color: white
+}
+
+.n9 {
+    background-color: black;
+    color: white
+}
+
+.n10 {
+    background-color: black;
+    color: white
+}
+
+.n11 {
+    background-color: black;
+    color: white
+}
+
+.n12 {
+    background-color: black;
+    color: white
 }
