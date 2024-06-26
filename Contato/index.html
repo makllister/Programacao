@@ -34,21 +34,31 @@
 </head>
 
 <body>
-    <h1>Enviar mensagem por Whatsapp</h1>
-    <h2>Insira dados para envio de contato</h2>
+    <h1>Enviar mensagem automática para o Whatsapp</h1>
     <br>
-    <label class="label" for="nome">Seu nome:</label>
-    <input class="label2" type="text" id="nome">
+    <h2>Insira dados para envio de contato</h2>
     <br><br>
-    <label for="mensagem">Mensagem para envio:</label>
-    <textarea class="label3" type="text" id="mensagem"></textarea>
-    <br><br>
-    <button onclick="conferirMensagemWhatsApp()"><b>Conferir Mensagem<b></button>
-    <br><br>
-    <p>Nome: <span class="n" id="confNome"></span> </p>
-    <p>Mensagem: <span class="m" id="confMsg"></span> </p>
-    <p>Data: <span class="d" id="confDate"></span> </p>
-    <button onclick="enviar()"><b>Enviar ZAP<b></button>
+    <div class="wrap-form">
+        <div class="wrap-inputs>">
+            <label class="label" for="nome">Seu nome:</label>
+            <input class="label2" type="text" id="nome">
+        </div>
+        <br>
+        <div class="wrap-inputs">
+            <label class="envio" for="mensagem">Mensagem para envio:</label>
+            <textarea class="label3" type="text" id="mensagem"></textarea>
+        </div>
+        <br>
+        <button onclick="conferirMensagemWhatsApp()">Conferir Mensagem</button>
+    </div>
+    <br>
+    <div id="printRespostas">
+        <h2>Validação do usuário</h2>
+        <p>Nome: <span class="nome" id="confNome"></span> </p>
+        <p>Mensagem: <span class="mensagem" id="confMsg"></span> </p>
+        <p>Data: <span class="data" id="confDate"></span> </p>
+    </div>
+        <img onclick="enviar()" src="../imagens/zap3.png" alt="Whatsapp" class="zapbtn">
 </body>
 
 </html>
