@@ -6,14 +6,14 @@
 
 body {
     font-family: "Pacifico", cursive;
-    background-image: url("../imagens/por\ do\ sol\ 2.jpg");
+    background-image: url("../imagens/inside\ out\ 2.png");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
     height: auto;
     width: 100vw;
     overflow-x: hidden;
-    color: #ffff;
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +46,7 @@ button:hover {
     right: 20px; */
     opacity: 0.8;
     border-radius: 100%;
-    color: white;
+    color: black;
     background-color: rgb(67, 122, 67);
 }
 
@@ -72,9 +72,10 @@ h1 {
 }
 
 h2 {
-    font-size: 17px;
+    font-size: 19px;
     font-family: "Montserrat", sans-serif;
-    color: white;
+    color: #ffff;
+    background-color: black;
     width: 100%;
     text-align: center;
 }
@@ -115,6 +116,7 @@ label {
     width: 100%;
     text-align: left;
     color: white;
+    background-color: black;
 }
 
 textarea {
@@ -138,7 +140,6 @@ input {
 }
 
 #printRespostas{
-    background-color: rgba(0, 0, 0, 0.616);
     pad: 80px;
     margin-bottom: 20px;
     border-radius: 5px;

@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: "Playwrite US Trad", cursive; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+}
+
+input{
+    padding: 10px;
+}
+
+.resp {
+    padding: 20px;
+    border-radius: 10px;
+    height: 120px;
+    width: 250px;
+    border: 20px dashed midnightblue
+    }
+
+.resp{
+    animation-delay: .5s;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    color: #ffff;
+}
+
+.idade{
+    background-size: 200px;
+    color: blue;
+}

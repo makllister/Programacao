@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+
+.primeiro{
+    color:red
+}
+
+.segundo{
+    color: orangered;
+}
+
+.terceiro{
+    color:teal
+}
+
+.quarto{
+    color: navy;
+}
+
+.quinto{
+    color: rgba(44, 151, 23, 0.952);
+}
+
+.sexto{
+    color: brown;
+}
+
+.sétimo{
+    color: crimson;
+}
+
+.oitavo{
+    color: darkorange;
+}
+
+.nono{
+    color: lightseagreen;
+}
+
+.décimo{
+    color: darkgoldenrod;
+}
