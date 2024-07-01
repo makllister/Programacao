@@ -28,3 +28,11 @@ site para pegar fontes
 
 class= "headings"- colocar cor em cada 'h'
 dá para colocar cor criando classe para cada coisa
+
+e / ou
+&& / ||
+
+igual / diferente
+=== / !"
+
+#127F45

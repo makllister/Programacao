@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Controle de estoque</title>
+    <title>Controle de tarefas</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.3/xlsx.full.min.js"></script>
@@ -15,35 +15,31 @@
 </head>
 
 <body>
-    <h1>Produtos para tabela Excel</h1>
+    <h1>Tarefas Diárias</h1>
     <br>
     <div class="wrap-inputs">
-        <input type="text" placeholder="Nome do produto" id="nome" />
-        <input type="number" placeholder="Valor do produto" id="valor" />
-        <input type="number" placeholder="Quantidade unitária" id="quantidade" />
+        <input type="text" placeholder="Tarefa do dia" id="tarefa" />
+        <!-- <input type= "text" placeholder="Horário" id="date"-->
     </div>
     <br>
     <div>
-        <button onclick="adicionarItem()">Adicionar a tabela</button>
+        <button onclick="adicionarTarefas()">Tarefas Feitas</button>
     </div>
     <br>
     <div>
         <table id="tabela">
             <thead>
                 <tr>
-                    <th>NOME</th>
-                    <th>VALOR</th>
-                    <th>QUANTIDADE</th>
-                    <th>TOTAL</th>
+                    <th>TAREFAS</th>
+                    <!-- <th>Dia/Hora</th> -->
                 </tr>
             </thead>
-            <tbody>
-            </tbody>
+            <tbody></tbody>
         </table>
     </div>
     <br>
     <div>
-        <button onclick="exportarParaExcel()">Gerar Excel</button>
+        <button onclick="CriararquivonoExcel()">Gerar Arquivo</button>
     </div>
 </body>
 
