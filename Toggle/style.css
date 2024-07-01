@@ -1,11 +1,33 @@
-.light{
-    background-color: black;
+.light {
+    background-image: url(..//imagens/light.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
-html{
-    background-color: red;
+html {
+    background-image: url(../imagens/dark.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    min-height: 100vh;
+    height: auto;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
-body{
-    padding: 20px;
+#Switch {
+    color: black;
+    width: 250px;
+}
+
+Body {
+    background-size: cover;
+    background-image: url(../imagens/light\ blue.jpg)
+}
+
+.form-check-label {
+    font-family: "Kanit", sans-serif;
 }
