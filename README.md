@@ -35,4 +35,6 @@ e / ou
 igual / diferente
 === / !"
 
- costa amalfitana
+cdn para jquery = 
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+

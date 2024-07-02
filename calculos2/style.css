@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black
+}
+h1, h2{
+    color: black;
+}
+
+body {
+    background-image: url("../imagens/mat.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 1000vh;
+    height: 800vh;
+    width: 700vw;
+    overflow-x: hidden;
+}
+
+.main-estilo {
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 40%;
+    display: block;
+}
+
+.num1 {
+    background-color: white;
+    color: black
+}
+
+.num2 {
+    background-color: white;
+    color: black
+}
+
+.num3 {
+    background-color: white;
+    color: black
+}
+
+.num4 {
+    background-color: white;
+    color: black
+}
+
+.num5 {
+    background-color: white;
+    color: black
+}
+
+/* .num6 {
+    background-color: white;
+    color: black
+}
+
+.num7 {
+    background-color: white;
+    color: black
+} */
+
+.error-div{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    background-color: lightpink;
+    gap: 1vw;
+    position: absolute;
+    bottom: 5%;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

@@ -1,6 +1,6 @@
 function adicionarItem() {
     var Tarefa = document.getElementById("tarf").value
-    var Descrição = document.getElementById("desc").value
+    var Descriçao = document.getElementById("desc").value
 
     var registro = new Date()
     dt = registro
@@ -9,10 +9,10 @@ function adicionarItem() {
     var novaLinha = tabela.insertRow(tabela.rows.length)
     var celulaTarefas = novaLinha.insertCell(0)
     var celulaDescriçao = novaLinha.insertCell(1)
-    var celulaDt = novaLinha.insertCell(2)
+    var celulaData = novaLinha.insertCell(2)
 
-    celulaDescriçao.innerHTML = descriçao
-    celulaTarefas.innerHTML = tarefas
+    celulaDescriçao.innerHTML = Descriçao
+    celulaTarefas.innerHTML = Tarefa
     celulaData.innerHTML = FormatarData(new Date())
 
 document.getElementById("tarfas").value = ""

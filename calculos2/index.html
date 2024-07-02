@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculos</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Calculos</h1>
+    <br>
+    <main class="main-estilo">
+        <section>
+            <h2 class="adicao">Somar</h2>
+            <br>
+            <input class="num1" id="so1" type="number" placeholder="Digite um número">
+            <input class="num2" id="so2" type="number" placeholder="Digite um número">
+            <input class="num3" id="so3" type="number" placeholder="Digite um número">
+            <input class="num4" id="so4" type="number" placeholder="Digite um número">
+            <input class="num5" id="so5" type="number" placeholder="Digite um número">
+            <button onclick="somar()">CALCULAR</button>
+            <p id="respSoma"></p>
+        </section>
+        <br>
+        <div>
+            <h2>Multi</h2>
+            <input id="mult1" type="number" placeholder="Insera um número">
+            <input id="mult2" type="number" placeholder="Insera um número">
+            <br>
+            <button onclick="multi()">Calcular</button>
+            <p id="respMulti"></p>
+            <div class="div" id="modal">
+                <h3>Meia Idade</h3>
+                <button onclick="error()">❌</button>
+            </div>
+            <div>
+                <h1>IMC</h1>
+                <input id="imc1" type="number" placeholder="Peso">
+                <input id="imc2" type="number" placeholder="Altura">
+                <button onclick="imc()">Calcular</button>
+                <p id="respDiv"></p>
+                </section>
+            </div>
+</body>
+
+</html>
