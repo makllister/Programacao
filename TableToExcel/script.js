@@ -40,5 +40,3 @@ function exportarParaExcel() {
     var wb = XLSX.utils.table_to_book(tabela, { sheet: "Tabela de Produtos" })
     XLSX.writeFile(wb, nomeArquivo)
 }
-
-celulaData.innerHTML = FormatarData(new Date())

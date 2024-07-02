@@ -8,8 +8,8 @@ function changeImage() {
     var paragraph = document.getElementById("p")
     var gender= document.getElementById("gender")
 
-    var registro = new Date();
-    dt = registro;
+    var registro = new Date()
+    dt = registro
 
     if (html.classList.contains("light")) {
         imagem.setAttribute("src", "../imagens/img1.png")
@@ -34,7 +34,7 @@ function formatarData(item) {
         hour: "numeric",
         minute: "numeric",
         second: "numeric",
-    };
+    }
 
     return item.toLocaleString("pt-BR", options)
 }
