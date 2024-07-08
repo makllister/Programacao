@@ -1,4 +1,4 @@
-# Programacao
+# revisaoQualificacao
 Revisao das 2 primeiras aulas de qualificacao em logica
 - https://www.w3schools.com/html/default.asp
 
@@ -38,6 +38,3 @@ igual / diferente
 cdn para jquery = 
 <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
 
-//Logica de programacao//
-ATALHOS
-- dotnet run
